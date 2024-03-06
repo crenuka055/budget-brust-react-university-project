@@ -31,15 +31,15 @@ function ResetPasswordForm() {
             />{" "}
           </div>
           <div className="flex flex-col gap-4 -mt-2">
-            <a href="Error" className="flex">
+            <a href="Error" className="flex flex-col">
               <button className="focus:outline-none text-xl hover:text-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 tracking-wider">
                 RESET PASSWORD
               </button>
             </a>
-            <span className="flex justify-center">Don't have account? </span>
+            <span className="flex justify-center">Don't have account? 
             <a href="/Signup">
               <span className="text-green-600 ml-2">Sign up</span>
-            </a>
+            </a></span>
           </div>
         </div>
       </div>

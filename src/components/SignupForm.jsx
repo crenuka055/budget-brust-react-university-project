@@ -27,7 +27,7 @@ function SignupForm() {
               type="password"
               placeholder="$password"
             />
-            <a className="text-red-800 hover:text-red-600" href="Repassword">
+            <a className="text-red-800 hover:text-red-600" href="/forgetpassword">
               Forget Password
             </a>
           </div>
