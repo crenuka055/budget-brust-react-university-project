@@ -6,6 +6,7 @@ function LineChart2() {
   return (
     <>
       <LineChart
+      colors={'blueberryTwilightPalette'}
   xAxis={[{ data: [1, 2, 3, 5, 8, 10] }]}
   series={[
     {

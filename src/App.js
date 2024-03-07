@@ -13,6 +13,7 @@ import Donate from './pages/donate';
 import Error from './pages/error';
 import Login from './pages/login';
 import Sign from './pages/signup';
+import Dashboard from './pages/dashboard';
 import ResetPassword from './pages/forgetpassword';
 import GradientEffect from './components/GradientEffect';
 
@@ -31,6 +32,7 @@ function App() {
                 <Route path='/error' element={<Error />} />
                 <Route path='/login' element={<Login />} />
                 <Route path='/signup' element={<Sign />} />
+                <Route path='/dashboard' element={<Dashboard />} />
                 <Route path='/forgetpassword' element={<ResetPassword />} />
                 {/* 
                 <Route path="/blogs" element={<Blogs />} />

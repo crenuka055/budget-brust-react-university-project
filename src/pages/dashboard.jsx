@@ -12,16 +12,16 @@ function dashboard() {
   return (
     <> 
       <Navbar />
-      <div className="flex justify-center my-20 h-max gap-10">
+      <div className="flex justify-center my-20 h-max gap-10 w-5/6 ">
       <PieCharts />
       <AreaChart />
       <LineChart />
       </div>
       <div className='flex flex-col justity-center mx-60'>
         <Table />
-      </div>
       <div>
         <LineChart2 />
+      </div>
       </div>
       <Footer />
     </>
