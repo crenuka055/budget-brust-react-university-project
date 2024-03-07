@@ -12,17 +12,28 @@ function dashboard() {
   return (
     <> 
       <Navbar />
+<<<<<<< HEAD
       <div className="flex justify-center my-20 h-max gap-10 w-5/6 ">
+=======
+      <div className="flex justify-center my-20 h-max gap-10">
+>>>>>>> 0255a6fa32fe66601d2336fc948e460d2be0bdae
       <PieCharts />
       <AreaChart />
       <LineChart />
       </div>
       <div className='flex flex-col justity-center mx-60'>
         <Table />
+<<<<<<< HEAD
       <div>
         <LineChart2 />
       </div>
       </div>
+=======
+      </div>
+      <div>
+        <LineChart2 />
+      </div>
+>>>>>>> 0255a6fa32fe66601d2336fc948e460d2be0bdae
       <Footer />
     </>
   )
