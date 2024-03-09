@@ -7,13 +7,14 @@ import PieCharts from '../components/PieChart'
 import Table from '../components/Table'
 import { PieChart } from '@mui/x-charts'
 import LineChart2 from '../components/LineChart2'
+import LineChart3 from '../components/LineChart3'
 
 function dashboard() {
   return (
     <> 
       <Navbar />
       <div className="flex justify-center my-20 h-max w-2/3 ml-40">
-      <PieCharts />@emotion/react
+      <PieCharts />
         <LineChart2 />
       </div>
       <div className="flex justify-center my-20 h-max gap-10">
