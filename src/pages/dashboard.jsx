@@ -12,16 +12,20 @@ function dashboard() {
   return (
     <> 
       <Navbar />
+      <div className="flex justify-center my-20 h-max w-2/3 ml-40">
+      <PieCharts />@emotion/react
+        <LineChart2 />
+      </div>
       <div className="flex justify-center my-20 h-max gap-10">
-      <PieCharts />
       <AreaChart />
       <LineChart />
       </div>
       <div className='flex flex-col justity-center mx-60'>
         <Table />
       </div>
-      <div>
-        <LineChart2 />
+      <div className='mx-60'>
+        {/* <LineChart3 /> */}
+        {/* <LineChart4 /> */}
       </div>
       <Footer />
     </>
