@@ -16,6 +16,7 @@ import Sign from './pages/signup';
 import Dashboard from './pages/dashboard'
 import ResetPassword from './pages/forgetpassword';
 import GradientEffect from './components/GradientEffect';
+import Testing from './pages/testing';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
                 <Route path='/signup' element={<Sign />} />
                 <Route path='/forgetpassword' element={<ResetPassword />} />
                 <Route path='/dashboard' element={<Dashboard />} />
+                <Route path='/testing' element={<Testing />} />
                 {/* 
                 <Route path="/blogs" element={<Blogs />} />
                 <Route
