@@ -1,6 +1,8 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+import axios from 'axios'
 import Footer from '../components/Footer'
+import LoginNavbar from '../components/LoginNavbar'
 import AreaChart from '../components/AreaChart'
 import LineChart from '../components/LineChart'
 import PieCharts from '../components/PieChart'
@@ -9,10 +11,24 @@ import { PieChart } from '@mui/x-charts'
 import LineChart2 from '../components/LineChart2'
 import LineChart3 from '../components/LineChart3'
 
-function dashboard() {
+const  Dashboard= () => {
+
+  const navigate = useNavigate()
+    axios.defaults.withCredentials = true;
+    useEffect(() => {
+        axios.get('http://localhost:3000/auth/verify')
+        .then(res=> {
+            if(res.data.status) {
+
+            } else {
+                navigate('/')
+            }
+        })
+    }, [])
+
   return (
     <> 
-      <Navbar />
+      <LoginNavbar />
       <div className="flex justify-center my-20 h-max w-2/3 ml-40">
       <PieCharts />
         <LineChart2 />
@@ -33,4 +49,4 @@ function dashboard() {
   )
 }
 
-export default dashboard
+export default Dashboard

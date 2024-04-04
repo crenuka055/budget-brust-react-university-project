@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LineChart3() {v
+function LineChart3() {
     const chartConfig = {
         series: [
           {

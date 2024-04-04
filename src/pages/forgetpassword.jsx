@@ -1,16 +1,16 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import ResetPasswordForm from '../components/ResetPasswordForm';
+import React from 'react'
+import Navbar from '../components/LoginNavbar'
+import Footer from '../components/Footer'
+import ForgetPasswordForm from '../components/ForgetPasswordForm'
 
 function forgetpassword() {
-  return (
+  return (  
     <>
       <Navbar />
-      <ResetPasswordForm />
+      <ForgetPasswordForm />
       <Footer />
     </>
   )
 }
 
-export default forgetpassword;
+export default forgetpassword
