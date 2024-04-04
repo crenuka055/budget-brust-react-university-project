@@ -11,7 +11,7 @@ import { PieChart } from '@mui/x-charts'
 import LineChart2 from '../components/LineChart2'
 import LineChart3 from '../components/LineChart3'
 
-const  Dashboard= () => {
+const  Dashboard = () => {
 
   const navigate = useNavigate()
     axios.defaults.withCredentials = true;
