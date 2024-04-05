@@ -5,7 +5,7 @@ function AreaChart() {
   return (
     <>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-      <div className="max-w-sm w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+      <div className="max-w-sm w-full bg-white rounded-lg shadow dark:bg-transparent dark:broder-white p-4 md:p-6">
         <div className="flex justify-between">
           <div>
             <h5 className="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">

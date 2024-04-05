@@ -11,7 +11,8 @@ import Dashboard from './pages/Dashboard'
 import ResetPassword from './pages/resetpassword';
 import GradientEffect from './components/GradientEffect';
 import Testing from './pages/testing';
-import ForgetPassword from './pages/forgetpassword'
+import ForgetPassword from './pages/forgetpassword';
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <Route path='/resetpassword/:token' element={<ResetPassword />} />
                 <Route path='/dashboard' element={<Dashboard />} />
                 <Route path='/testing' element={<Testing />} />
+                <Route path='/admin' element={<Admin />} />
                 {/* 
                 <Route path="/blogs" element={<Blogs />} />
                 <Route
