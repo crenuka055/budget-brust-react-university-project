@@ -21,6 +21,7 @@ Welcome to the Budget Burst (BB) project repository! BB is a money tracking, sav
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Figma Design](#figma)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -36,6 +37,9 @@ Budget Burst (BB) is a comprehensive financial management platform that speciali
 - **Investment Opportunities**: Explore investment opportunities in various cryptocurrencies.
 - **Budgeting Tools**: Utilize budgeting tools to manage expenses and optimize savings.
 - **Secure Transactions**: Ensure security with robust encryption and authentication measures.
+
+## 🖼️ Figma
+- https://www.figma.com/design/F4cUT77kD2MLrUy1cp9Xjo/React-Project---University?node-id=0%3A1&t=OJ8NN0youPj4yjfU-1
 
 ## ⚙️ Installation 🧪
 
