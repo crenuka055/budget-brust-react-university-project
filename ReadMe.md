@@ -56,7 +56,6 @@ To get started with the Budget Burst (BB) project, follow these steps:
     ```bash
     cd client
     npm install
-    npm init -y
     ```
     
 3. Run the Project
